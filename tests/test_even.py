@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assignment folder')))
-from even_check import is_even
+from even import is_even
 
 def test_even_cases():
     assert is_even(2) == True
